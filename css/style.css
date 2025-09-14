@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#hero{
+    background: url("https://communityimpact.com/uploads/images/2025/09/12/385652.jpg")
+    no-repeat center/cover;
+    height: 80vh;
+    display:flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+.hero-content{
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
+.hero-content h1{
+    font-family: Pacifico, cursive;
+   color: black
+}
