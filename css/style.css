@@ -9,6 +9,11 @@ body{
     
 }
 
+h1,h2{
+    font-family: Pacifico, cursive;
+}
+
+/* POCETAK CSSa ZA HERO SEKCIJU */
 #hero{
     background: url("https://communityimpact.com/uploads/images/2025/09/12/385652.jpg")
     no-repeat center/cover;
@@ -31,3 +36,57 @@ body{
     font-family: Pacifico, cursive;
    color: black
 }
+/* KRAJ CSSa ZA HERO SEKCIJU */
+
+/* POCETAK CSSa ZA UKUSI SEKCIJU */
+.ukusi-section{
+    
+    background-color: #FFD1DC;
+    margin: 50px auto;
+    width: 1000px;
+    padding: 50px;
+   border-radius: 20px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+   color: rgb(186, 135, 90);
+}
+
+.ukusi-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.ukus-box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid gold;
+    transition: transform 0.8s ease;
+    transform-style: preserve-3d;
+}
+
+.ukus-box img:hover{
+    transform: rotateY(180deg);
+}
+
+ .ukus-box h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+ }
+
+ .ukusi-section h2::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #FDFD96;
+   
+  
+ }
+/* KRAJ CSSa ZA UKUSI SEKCIJU */
