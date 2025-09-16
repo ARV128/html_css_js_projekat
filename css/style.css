@@ -75,7 +75,7 @@ h1,h2{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
-    color: #333;
+    color: #7E4F18;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
  }
@@ -90,3 +90,74 @@ h1,h2{
   
  }
 /* KRAJ CSSa ZA UKUSI SEKCIJU */
+
+/* POCETAK CSSa ZA BEST SELLER SEKCIJU */
+
+.best-seller-section{
+   background-color: #fff0f5; 
+   padding: 50px 20px;
+   text-align: center; 
+}
+
+.best-seller-section h2{
+    color: #7E4F18;
+}
+
+.cena{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(223,42,124);
+}
+
+.best-seller-content{
+    position: relative;
+    
+}
+
+.sticker{
+  position: absolute;
+  top: 10px;
+    left:400px;
+   background-color: #ff6b81;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    letter-spacing: 1px;
+    transform-origin: top center;
+    animation: swing 2s infinite ease-in-out;
+
+}
+
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.nutritivne-vrednosti{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 350px;
+    margin: 20px auto;
+    
+}
+
+
+.best-seller-section img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.alergeni{
+    padding: 10px;
+    border-top: 2px solid #aaa;
+    font-size: smaller;
+}
+/* KRAJ CSSa ZA BEST SELLER SEKCIJU */
