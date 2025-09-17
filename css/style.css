@@ -275,4 +275,49 @@ h1,h2{
 
 
 
-/* KRAJ CSSa ZA  O NAMA SEKCIJU */
+/* POCETAK CSSa ZA ZASTO BAS MI SEKCIJU */
+
+.zasto-bas-mi{
+    background-color: #fff0f5;
+    padding: 50px 20px;
+    margin: 50px auto;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.zastomi-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.slika img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.razlog{
+    background-color:#d4bbc3 ;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin: 5px;
+
+}
+
+.kolona1{
+    font-size: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#ad979e ;
+    border-radius: 10px 0 0 10px;
+}
+
+.kolona2{
+    padding: 10px;
+}
+/* KRAJ CSSa ZA ZASTO BAS MI SEKCIJU */
