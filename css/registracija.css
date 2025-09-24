@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("https://w0.peakpx.com/wallpaper/702/688/HD-wallpaper-ice-cream-background-beautiful-best-available-for-ice-cream.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.registracija-section{
+    background-color: rgb(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+    max-width: 500px;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+} 
+
+.input-group i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.input-group input{
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-group input:focus{
+    outline: none;
+    border:none;
+}
+
+.input-group select{
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.dugme-submit{
+    display: block;
+    padding: 10px 20px;
+    margin-left: auto;
+    border:none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #ff105f, #ffad06);
+    color: white;
+    box-shadow: 2px 4px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.dugme-submit:hover{
+     background-image: linear-gradient(to right,#ffad06, #ff105f);
+     transform: translateY(-2px);
+}
