@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+h1,h2{
+    font-family: Pacifico, cursive;
+}
+
+
+.kontaktformasekcija{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+input,textarea{
+    width: 100%;
+    margin: 5px;
+    padding: 12px,16px;
+    border-radius: 5px;
+    
+}
+
+.posaljiporukudugme{
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    background: linear-gradient(to right, #028c91, #247cc4);
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.posaljiporukudugme:hover{
+    background: linear-gradient(to right, #247cc4, #028c91);
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+textarea{
+    height: 150px;
+    
+}
+
+.kontaktpodaci{
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 50px 30px;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.socials{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.podatak{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.podatak:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.ikonica{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #028c91, #247cc4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.kontaktmapa{
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.mapagrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.kolona2 p{
+    margin: 10px;
+}
+
+.faq{
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.svapitanja{
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.pitanje{
+    background-color: #f5f8fa;
+    padding: 10px;
+    
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.pitanje p{
+    display: none;
+}
+
+.pitanje.aktivan p{
+   display: block;
+}
+
+.pitanje.aktivan{
+    border-left: 6px solid #247cc4;
+}
+
+.pitanje:hover{
+    cursor: pointer;
+    background-color: #e4e9ed;
+    transform: scale(1.02);
+}
