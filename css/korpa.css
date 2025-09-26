@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1,h2{
+    font-family: Pacifico, cursive;
+}
+
+.korpa{
+    background-color: #fff0f5;
+    padding: 50px;
+    text-align: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.sviproizvodikorpe{
+    padding: 50px;
+}
+
+table{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+th,td{
+    padding: 50px;
+    border: 1px solid #ccc;
+
+}
+
+input{
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.obrisi{
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    
+}
+.obrisi:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.nazivproizvodacelija{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+}
