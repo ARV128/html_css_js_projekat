@@ -13,6 +13,38 @@ h1,h2{
     font-family: Pacifico, cursive;
 }
 
+/* POCETAK CSSa ZA NAVBAR */
+
+nav{
+    background-color: #fff0f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+
+}
+
+.linkmenija{
+    margin: 10px;
+    text-decoration: none;
+    color: #7E4F18;
+}
+
+.logoslika{
+    height: 35px;
+}
+
+
+
+
 /* POCETAK CSSa ZA HERO SEKCIJU */
 #hero{
     background: url("https://communityimpact.com/uploads/images/2025/09/12/385652.jpg")
