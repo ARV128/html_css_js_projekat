@@ -20,12 +20,13 @@
 </head>
 <body>
     
- <header>
+<header>
     <nav>
       <div class="logo">
         <a href="index.html"><img class="logoslika" src="./images/logo.png" alt="Logo prodavnice sladoleda"></a>
       </div>
-
+      <input type="checkbox" id="menu-toggle">
+     <label for="menu-toggle" class="hamburger">&#9776;</label>
       <ul class="nav-links">
         <li><a class="linkmenija" href="index.html">Pocetna</a></li>
         <li><a class="linkmenija" href="ponuda.html">Ponuda</a></li>
@@ -35,6 +36,8 @@
         <li><a class="linkmenija" href="login.html">Prijavi se</a></li>
       </ul>
 
+
+    
     </nav>
     
   </header>
@@ -45,14 +48,16 @@
 
         <div class="sviproizvodikorpe">
           <table>
-            <tr>
+          <thead>
+             <tr>
                 <th>Proizvod</th>
                 <th>Cena</th>
                 <th>Kolicina</th>
                 <th>Ukupno</th>
                 <th>Obrisi</th>
             </tr>
-
+          </thead>
+             <tbody>
             <tr>
                 
                 <td class="nazivproizvodacelija"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsnGKJi1LSK38e42datEhz27J9vSIbFl_exg&s" alt="kugla sladoleda od cokolade">kugla sladoleda od cokolade</td>
@@ -71,7 +76,7 @@
                 <td><button class="obrisi"><i class="fa-solid fa-trash"></i></button></td>
             </tr>
 
-
+          </tbody>
           </table>
 
         </div>

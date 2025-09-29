@@ -97,4 +97,33 @@ h2{
     transition: 0.3s;;
 }
 
+@media(max-width: 1024px){
+ .sviproizvodi{
+    max-width: 90%;
+ }
+}
+
+@media(max-width: 768px){
+    .proizvodheder, .proizvod img{
+      height: 220px;
+    }
+
+    .proizvod{
+        max-width: 45%;
+    }
+}
+
+    @media(max-width: 480px){
+        .proizvod{
+          max-width: 100%;
+        }
+
+        .proizvodheder, .proizvod img{
+           height: 200px;
+        }
+
+        .dodaj{
+            width: 100%;
+        }
+    }
 

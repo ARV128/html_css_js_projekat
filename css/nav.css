@@ -27,4 +27,33 @@ nav{
     height: 35px;
 }
 
+#menu-toggle{
+    display: none;
+}
+
+ .hamburger{
+    display: none;
+    color: #7E4F18;
+} 
+
+@media (max-width: 768px){
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff0f5;
+    }
+
+    #menu-toggle:checked ~ .nav-links{
+        display: flex;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+}
+
 /* KRAJ CSSa ZA NAVBAR */

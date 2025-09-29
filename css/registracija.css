@@ -1,9 +1,23 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
 body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
     background-image: url("https://w0.peakpx.com/wallpaper/702/688/HD-wallpaper-ice-cream-background-beautiful-best-available-for-ice-cream.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+h1,h2{
+    font-family: Pacifico, cursive;
+}
+
 
 
 .registracija-section{
