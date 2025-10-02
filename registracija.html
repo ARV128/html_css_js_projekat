@@ -40,56 +40,56 @@
         <h2>Kreiraj nalog</h2>
         
         <div class="form-container">
-            <form >
+            <form id="formaRegistracija">
                 <div class="input-group">
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" name="ime_prezime" placeholder="Ime i prezime" required> <br>
+                    <input type="text" id= "ime_prezime" name="ime_prezime" placeholder="Ime i prezime" required> <br>
                 </div>
 
                  <div class="input-group">
                <i class="fa-solid fa-envelope"></i>
-                <input type="email" name="email" placeholder="Unesite vas email" required> <br>
+                <input type="email" id= "email" name="email" placeholder="Unesite vas email" required> <br>
                  </div>
 
 
                  <div class="input-group">
                     <i class="fa-solid fa-lock"></i>
-                    <input type="password" name="lozinka" placeholder="Unesite lozinku" required> <br>
+                    <input type="password" id= "lozinka" name="lozinka" placeholder="Unesite lozinku" required> <br>
                 </div>
 
                  <div class="input-group">
                     <i class="fa-solid fa-lock"></i>
-                    <input type="password" name="ponovi_lozinku" placeholder="Ponovite lozinku" required> <br>
+                    <input type="password" id= "ponovi_lozinku" name="ponovi_lozinku" placeholder="Ponovite lozinku" required> <br>
 
                 </div>
 
                  <div class="input-group">
                     <i class="fa-solid fa-phone"></i>
-                    <input type="text" name="telefon" placeholder="Unesite vas telefon" required> <br>
+                    <input type="text" id= "telefon" name="telefon" placeholder="Unesite vas telefon" required> <br>
 
                 </div>
 
                  <div class="input-group">
                     <i class="fa-solid fa-address-book"></i>
-                    <input type="text" name="adresa" placeholder="Unesite vasu adresu" required> <br>
+                    <input type="text" id= "adresa" name="adresa" placeholder="Unesite vasu adresu" required> <br>
 
                 </div>
 
                  <div class="input-group">
                     <i class="fa-solid fa-calendar"></i>
-                    <input type="date" name="datum_rodjenja" placeholder="Unesite vas datum rodjenja" required> <br>
+                    <input type="date" id= "datum_rodjenja" name="datum_rodjenja" placeholder="Unesite vas datum rodjenja" required> <br>
 
                  </div>
 
                  <div class="input-group">
                     <i class="fa-solid fa-venus-mars"></i>
-                    <select name="pol" required>
+                    <select id= "pol" name="pol" required>
                         <option value="" disabled selected>Odaberite pol</option>
                         <option value="muski">Muski</option>
                         <option value="zenski">Zenski</option>
                     </select> <br>
                 </div>
-                <button class="dugme-submit">Registruj se</button>
+                <button id= "registracijaBtn" class="dugme-submit">Registruj se</button>
             </form>
 
         </div>
@@ -97,5 +97,6 @@
         
     </section>
     
+    <script src="js/registracija.js"></script>
 </body>
 </html>
