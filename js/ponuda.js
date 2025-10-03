@@ -42,10 +42,10 @@ const proizvodi=[
 
 
  function dodajUKorpu(index){
-    let korpa=JSON.parse(localStorage.getItem("korpa")) || [];
+    let korpa=JSON.parse(localStorage.getItem('korpa')) || [];
     korpa.push(proizvodi[index]);
 
-    localStorage.setItem("korpa",JSON.stringify(korpa));
+    localStorage.setItem('korpa',JSON.stringify(korpa));
     alert("Proizvod je dodat u korpu!");
     
 
