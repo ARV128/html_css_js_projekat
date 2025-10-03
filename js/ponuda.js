@@ -40,11 +40,23 @@ const proizvodi=[
     }
 ];
 
+
+ function dodajUKorpu(index){
+    let korpa=JSON.parse(localStorage.getItem("korpa")) || [];
+    korpa.push(proizvodi[index]);
+
+    localStorage.setItem("korpa",JSON.stringify(korpa));
+    alert("Proizvod je dodat u korpu!");
+    
+
+ }
+
+
 function ucitajProizvode(){
     const sviProizvodiDiv=document.getElementById("sviproizvodi");
     sviProizvodiDiv.innerHTML="";
 
-    proizvodi.forEach(proizvod => {
+    proizvodi.forEach((proizvod,index) => {
           const proizvodDiv=document.createElement("div");
           proizvodDiv.innerHTML=`
            <div class="proizvodheder">
@@ -55,12 +67,19 @@ function ucitajProizvode(){
            <i class="fa-solid fa-tag"></i>
            <span class="staracena">Stara cena: ${proizvod.staraCena}RSD</span>
            <span class="novacena">Nova cena: ${proizvod.novaCena}RSD</span>
-            <button class="dodaj"><i class="fa-solid fa-cart-plus"></i>Dodaj u korpu</button>
+            <button class="dodaj" data-id="${proizvod.id}"><i class="fa-solid fa-cart-plus"></i>Dodaj u korpu</button>
           `;
 
           sviProizvodiDiv.appendChild(proizvodDiv);
     });
 
+    const dugmici=document.querySelectorAll(".dodaj");
+    dugmici.forEach((dugme) => {
+        dugme.addEventListener("click",() => {
+           const index=dugme.getAttribute("data-id");
+           dodajUKorpu(index);
+        });
+    });
     
 }
 
